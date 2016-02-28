@@ -1,0 +1,19 @@
+{
+  "name": "algorithms-in-js",
+  "version": "0.0.1",
+  "description": "A journey to learn algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "author": "Cade Ward <cadebward@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "expect": "^1.14.0",
+    "mocha": "^2.4.5"
+  }
+}
