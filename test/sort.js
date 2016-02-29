@@ -1,8 +1,9 @@
 import expect from 'expect'
 
 import mergesort from '../src/merge-sort'
+import quicksort from '../src/quick-sort'
 
-const algorithms = [mergesort]
+const algorithms = [mergesort, quicksort]
 
 const unsortedTestArray = [3195, 4189, 2547, 8543, 1533, 5456, 4980, 1849,
     8041, 6036, 7067, 8579, 6590, 6739, 8293, 853, 5732, 8730, 7492, 2652,
